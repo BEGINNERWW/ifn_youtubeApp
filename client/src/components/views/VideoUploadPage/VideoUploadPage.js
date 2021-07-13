@@ -97,6 +97,7 @@ function VideoUploadPage(){
             <select onChange={onCategoryChange}>
                 {CategoryOptions.map((item, index) => (
                     <option key={index} value={item.value}>{item.label}</option>
+                    
                 ))}
             </select>
             <br/>
